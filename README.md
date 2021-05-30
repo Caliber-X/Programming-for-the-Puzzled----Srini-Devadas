@@ -16,7 +16,7 @@
 
 8. [Sudoku Solver](https://github.com/Caliber-X/Programming-for-the-Puzzled----Srini-Devadas/tree/master/Puzzle%208)
 
-9. []()
+9. [The Disorganized Handyman](https://github.com/Caliber-X/Programming-for-the-Puzzled----Srini-Devadas/tree/master/Puzzle%209)
 
 10. []()
 
