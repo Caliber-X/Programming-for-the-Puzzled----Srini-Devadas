@@ -1,6 +1,6 @@
 # Simple Merge Sort with Pivoting
 # The Disorganized Handyman
-# # By Caliber_X
+# By Caliber_X
 
 # Number of runs
 runs = 0
