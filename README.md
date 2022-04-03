@@ -18,6 +18,6 @@
 
 9. [The Disorganized Handyman](https://github.com/Caliber-X/Programming-for-the-Puzzled----Srini-Devadas/tree/master/Puzzle%209)
 
-10. []()
+10. [A Weekend to Remember](https://github.com/Caliber-X/Programming-for-the-Puzzled----Srini-Devadas/tree/master/Puzzle%2010)
 
 11. []()
