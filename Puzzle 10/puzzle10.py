@@ -5,6 +5,9 @@
 
 def bipartiteGraphColor(graph, start, coloring, color):
 
+    if start not in graph:  # not a graph / undirected graph
+        return False, {}
+
     # base case - already colored
     if start in coloring:
         # if already colored - check color
@@ -14,8 +17,7 @@ def bipartiteGraphColor(graph, start, coloring, color):
 
     coloring[start] = color
     for node in graph[start]:
-        # color = 1 - color
-        print(f"{start, node} -> {coloring}")
+        # print(f"{start, node} -> {coloring}")
         val, coloring = bipartiteGraphColor(graph, node, coloring, 1 - color)
         if not val:
             return False, {}
@@ -55,7 +57,3 @@ print (bipartiteGraphColor(gra3, 'A', {}, 0))
 print (bipartiteGraphColor(graph, 'B', {}, 0))
 print (bipartiteGraphColor(graph2, 'F', {}, 0))
 print (bipartiteGraphColor(grap, 'A', {}, 0))
-
-
-
-
